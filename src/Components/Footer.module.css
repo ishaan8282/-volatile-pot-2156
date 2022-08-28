@@ -1,0 +1,40 @@
+.footer {
+    background-color: #111324;
+    border: 0;
+    margin: 0;
+    /* border: 1px solid black; */
+    height: 500px;
+    color: white;
+  }
+  .top_footer {
+    display: flex;
+    /* border: 1px solid white; */
+    height: 250px;
+  }
+  .top_right {
+    display: flex;
+    margin-left: 1%;
+    padding-top: 50px;
+  }
+  .product,
+  .company,
+  .email_marketing,
+  .community {
+    /* border: 1px solid white; */
+    width: 200px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .footer_logo {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 50px;
+  }
+  .top_right_heading {
+    margin-bottom: 20px;
+    color: #8a8b93;
+  }
+  .para > div {
+    padding: 5px;
+  }
+  
