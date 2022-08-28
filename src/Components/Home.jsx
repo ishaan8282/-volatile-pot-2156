@@ -79,7 +79,7 @@ function Home() {
     
         <div className={styles.box_3}>
     
-            <div className={styles.content}>
+            {/* <div className={styles.content}>
                 <h3>EASE OF USE</h3>
                 <p>Customize any template or design to showcase your brand using the</p>
                 <p>simply powerful
@@ -100,16 +100,16 @@ function Home() {
                          <img src="https://i3.campaignmonitor.com/assets/images/features/new/design/editor_email.png?ver=16729" width="550px" alt="Gusto img"/>
                     
                       </div>
-                    </div>                  
+                    </div>                   */}
      </div> 
         
       </div>    
-     <div className={styles.bottom_part}>
+     {/* <div className={styles.bottom_part}>
        <div>
        <p>Eager to see it in action? Take a look.</p>
       </div>
       <button className={styles.btn_free}><Link to="https://www.campaignmonitor.com/signup/?sv=home" >Get started for free</Link></button>
-     </div> 
+     </div>  */}
 
      {/* Templates  */}
      <div className={styles.row_4}>
@@ -185,7 +185,7 @@ function Home() {
         <h1>Get started with Campaign Monitor today</h1>
         <p>With our powerful yet easy-to-use tools, it's never been easier<br/>
              to make an impact with email marketing.</p>
-        <button className={styles.btn_support}>Sign up for free</button>
+        <button className={styles.btn_supportlast}>Sign up for free</button>
         </div>
       </div>
         </div>

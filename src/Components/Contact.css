@@ -1,0 +1,144 @@
+/* Headers */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  /* Headers */
+  #head {
+    background-color: #111324;
+    height: 80px;
+    width: 100%;
+    margin: 0;
+    min-width: 320px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: 0;
+  }
+  
+  a {
+    color: white;
+    /* font-size:16px ; */
+    /* line-height: 16px; */
+    font-weight: 200;
+    margin-left: 20px;
+    text-decoration: none;
+    padding: 10px;
+    /* border: 1px solid red; */
+  }
+  a:hover {
+    color: teal;
+  }
+  .signup_active a {
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+  }
+  .header_outer {
+    display: flex;
+    color: white;
+    padding-top: 10px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 200;
+    margin-left: 1%;
+    margin-top: 5px;
+  }
+  .header_logo {
+    color: white;
+  
+    /* border: 1px solid white; */
+    padding: 15px 0px;
+    margin-left: 2%;
+    width: 15%;
+  }
+  .header_middle {
+    display: flex;
+    /* border: 1px solid red; */
+    margin-left: 2%;
+    margin-top: 10px;
+  }
+  .header_last {
+    display: flex;
+    /* border: 1px solid red; */
+    margin-left: 5%;
+    margin-top: 10px;
+  }
+  /* .clear {
+    clear: both;
+  } */
+  /* Customers */
+  .customers_outer {
+    background-color: #404358;
+    height: 600px;
+    color: white;
+  }
+  .inner {
+    margin-top: 80px;
+    /* border: 1px solid white; */
+    /* position: relative; */
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 150px 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 500px;
+  }
+  .inner_2 > a {
+    color: white;
+  }
+  .inner:hover {
+    color: #404358;
+    background-color: rgb(18, 194, 150);
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #111324;
+    border: 0;
+    margin: 0;
+    /* border: 1px solid black; */
+    height: 400px;
+    color: white;
+  }
+  .top_footer {
+    display: flex;
+    /* border: 1px solid white; */
+    height: 250px;
+  }
+  .top_right {
+    display: flex;
+    margin-left: 1%;
+    padding-top: 50px;
+  }
+  .product,
+  .company,
+  .email_marketing,
+  .community {
+    /* border: 1px solid white; */
+    width: 200px;
+    line-height: 20px;
+    font-weight: 400;
+  }
+  .footer_logo {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 50px;
+  }
+  .top_right_heading {
+    margin-bottom: 20px;
+    color: #8a8b93;
+  }
+  .para > div {
+    padding: 5px;
+  }
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  

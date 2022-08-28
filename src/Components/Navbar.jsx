@@ -25,7 +25,7 @@ function Navbar() {
         fontSize: "16px",
         letterSpacing: ".14em",
         lineHeight: "24px"
-      }} to="/Integration"><p>Features</p></Link> 
+      }} to="/features"><p>Features</p></Link> 
 
 
 
@@ -36,7 +36,7 @@ function Navbar() {
         letterSpacing: ".14em",
         lineHeight: "24px"
       }} 
-        to="/Blog"> <p>Pricing</p> </Link>
+        to="/pricing"> <p>Pricing</p> </Link>
 
 
 
@@ -47,7 +47,7 @@ function Navbar() {
          
         letterSpacing: ".14em",
         lineHeight: "24px"
-      }} to="/Integration"><p>Resources</p></Link> 
+      }} to="/resources"><p>Resources</p></Link> 
 
 
 
@@ -57,7 +57,7 @@ function Navbar() {
          
         letterSpacing: ".14em",
         lineHeight: "24px"
-      }} to="/Integration"><p>Customers</p></Link> 
+      }} to="/customers"><p>Customers</p></Link> 
 
 
 <Link style={{textDecoration:"none",
@@ -66,7 +66,7 @@ function Navbar() {
          
         letterSpacing: ".14em",
         lineHeight: "24px"
-      }} to="/Integration"><p>Gallery</p></Link> 
+      }} to="/gallery"><p>Gallery</p></Link> 
 
 
 
@@ -76,7 +76,7 @@ function Navbar() {
          
         letterSpacing: ".14em",
         lineHeight: "24px"
-      }} to="/Integration"><p>Agencies</p></Link> 
+      }} to="/agencies"><p>Agencies</p></Link> 
 
       </div>
 
@@ -90,7 +90,7 @@ function Navbar() {
          
         letterSpacing: ".14em",
         lineHeight: "24px"
-      }} to="/Integration"><p>Contact Us</p></Link> 
+      }} to="/contact"><p>Contact Us</p></Link> 
 
 
 <Link style={{textDecoration:"none",
@@ -101,7 +101,7 @@ function Navbar() {
         lineHeight: "24px"
       }} to="/Login"><p>Log in</p> </Link>
 
-        <button>TRY IT FREE</button>
+        <button className={styles.TryitFree}>TRY IT FREE</button>
  </div>
 
 

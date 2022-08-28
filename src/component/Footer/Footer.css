@@ -1,0 +1,42 @@
+.container1{
+    width: 70%;
+    /* height: 10rem; */
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 2rem;
+    
+}
+.subcont1{
+    display: flex;
+    gap: 2rem;
+
+
+}
+.gap.button{
+    gap: 5rem;
+    /* border: 1px solid blue; */
+
+}
+.subcont1>div>button{
+    font-size: 11px;
+    /* border: 1px solid blue; */
+  padding: .25rem;
+  font-weight: 400;
+
+    
+    
+}
+.atbottom{
+    font-size: 10px;
+    /* border: 1px solid red; */
+    color: #a78f8f;
+    
+    
+    
+}
+.atbottom>button{
+    gap: 2rem;
+    /* border: 1px solid blue; */
+    margin: 10px;
+
+}

@@ -29,7 +29,7 @@ body{
   justify-content: space-evenly;
   gap: 15px;
   padding: 10px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: auto;
 
 }
@@ -64,10 +64,11 @@ body{
 button{
     padding: 10px;
     box-sizing: border-box;
-    background-color:#00ad95;
+    background-color: #80bb35;
     color: white;
     font-weight: bold;
-    width: 120px;
+    width: 200px;
+    padding: 20px;
     border-radius: 5px;
     border-color: white;
 }
@@ -627,4 +628,6 @@ input:focus {
     /* height: 100%; */
   }
 
-
+.TryitFree{
+    background-color: #51cfdb;
+}

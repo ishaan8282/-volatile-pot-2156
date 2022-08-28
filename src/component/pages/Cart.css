@@ -1,0 +1,16 @@
+.container-cart{
+    width: 70%;
+    height: 30rem;
+    /* border:  1px solid red; */
+    margin: auto;
+}
+.top-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+} 
+.img-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
